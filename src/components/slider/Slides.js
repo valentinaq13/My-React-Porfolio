@@ -21,6 +21,7 @@ const slidesInfo = [
         src: portfolio,
         alt: "Project 3",
         desc: "React Portfolio",
+        href: "https://github.com/valentinaq13/My-React-Porfolio"
     },
 ];
 

@@ -6,8 +6,10 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-info">
         <h1>Valentina Quiroga</h1>
+        <p>E-mail: emeritavalentina@gmail.com <br></br>
+         Cel Phone: +54 (0351) 158574580</p>
         <p>Córdoba, Argentina.</p>
-        <p>Cel Phone: +54 (0351) 158574580 / emeritavalentina@gmail.com</p>
+        
       </div>
       <div className="footer-contact">
         <h3>Contact me</h3>

@@ -7,6 +7,7 @@ const Footer = () => {
       <div className="footer-info">
         <h1>Valentina Quiroga</h1>
         <p>Córdoba, Argentina.</p>
+        <p>Cel Phone: +54 (0351) 158574580 / emeritavalentina@gmail.com</p>
       </div>
       <div className="footer-contact">
         <h3>Contact me</h3>
@@ -14,7 +15,6 @@ const Footer = () => {
 
       </div>
       <div className="footer-sns">
-        <div className="design-by">Cel Phone: +54 (0351) 158574580 / emeritavalentina@gmail.com</div>
         <div className="sns-links">
           <a href="https://www.linkedin.com/in/valentina-quiroga-zalazar/" target="_blank" rel="noreferrer">
             <i className="fab fa-linkedin linkedin"></i>

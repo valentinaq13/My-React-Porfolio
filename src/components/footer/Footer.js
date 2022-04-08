@@ -15,7 +15,9 @@ const Footer = () => {
 
       </div>
       <div className="footer-sns">
+        
         <div className="design-by"></div>
+        
         <div className="sns-links">
           <a href="https://www.linkedin.com/in/valentina-quiroga-zalazar/" target="_blank" rel="noreferrer">
             <i className="fab fa-linkedin linkedin"></i>
@@ -30,8 +32,8 @@ const Footer = () => {
         </div>
 
       </div>
+      
       <div className="design-by2">Design by Valentina Quiroga</div>
-
     </footer>
   );
 };

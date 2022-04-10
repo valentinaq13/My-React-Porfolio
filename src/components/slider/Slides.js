@@ -10,7 +10,7 @@ const slidesInfo = [
         src: countries,
         alt: "Project 1",
         desc: "Countries",
-        href: "https://github.com/valentinaq13/PI-Countries"
+        href: "https://youtu.be/qJTMt9fDdZE"
     },
     {
         src: jseeker,
@@ -22,7 +22,7 @@ const slidesInfo = [
         src: portfolio,
         alt: "Project 3",
         desc: "React Portfolio",
-        href: "https://github.com/valentinaq13/My-React-Porfolio"
+        href: "https://valentina-quiroga.vercel.app/"
     },
 ];
 

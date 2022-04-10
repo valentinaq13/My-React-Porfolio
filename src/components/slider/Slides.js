@@ -2,7 +2,8 @@ import React from "react";
 import "./Slider.css";
 import jseeker from "../../media/jseeker.png";
 import portfolio from "../../media/portfolio.png";
-import countries from "../../media/countries.png"
+import countries from "../../media/countries.png";
+import countriesVideo from "../../media/countriesVideo.mp4"
 
 const slidesInfo = [
     {

@@ -9,7 +9,7 @@ const slidesInfo = [
         src: countries,
         alt: "Project 1",
         desc: "Countries",
-        href: "https://youtu.be/qJTMt9fDdZE"
+        href: "https://www.linkedin.com/posts/valentina-quiroga-zalazar_frontend-react-database-activity-6892512726267035648-W3UL?utm_source=linkedin_share&utm_medium=member_desktop_web"
     },
     {
         src: jseeker,

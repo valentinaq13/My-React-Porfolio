@@ -3,6 +3,7 @@ import "./Slider.css";
 import jseeker from "../../media/jseeker.png";
 import portfolio from "../../media/portfolio.png";
 import countries from "../../media/countries.png";
+import CRUD from "../../media/CRUD.png"
 
 const slidesInfo = [
     {
@@ -23,6 +24,12 @@ const slidesInfo = [
         desc: "React Portfolio",
         href: "https://valentina-quiroga.vercel.app/"
     },
+    {
+        src: CRUD ,
+        alt: "Project 4",
+        desc: "Firebase & React CRUD",
+        href: "https://fir-react-crud-6ac76.web.app/"
+    }
 ];
 
 const slides = slidesInfo.map((slide) => (

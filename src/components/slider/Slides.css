@@ -1,0 +1,44 @@
+.slide-container{
+    height: 100%;
+    border-radius: 40px;
+    overflow: hidden;
+    position: relative;
+    cursor:pointer;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 5px;
+    width:500px
+}
+
+.slideImg{
+    height:350px;
+}
+
+
+.slideText{
+   background-color: rgba(0, 0, 0, 0.747);
+   height: 100%;
+   padding: 10px 50px 10px 50px;
+    
+}
+
+.slideTitle {
+    font-size:x-large;
+    margin-bottom: 5px;
+}
+
+.slideDesc{
+    font-size: small;
+}
+
+.info{
+    color: white;
+    font-size: large;
+}
+
+@media (max-width: 900px){
+    .slideContainer{
+        height: 100%;
+    }
+}

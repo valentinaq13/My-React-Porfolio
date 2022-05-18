@@ -12,10 +12,10 @@ const Slider = () => {
       </div>
 
       <Carousel
-        plugins={['arrows']}
-        slidesPerPage={1}
+        plugins={['arrows','infinite', 'autoplay']}
+        slidesPerPage={3}
         infinite
-        animationSpeed={200}
+        animationSpeed={1000}
         centered
         offset={50}
         itemWidth={400}

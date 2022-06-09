@@ -3,7 +3,8 @@ import "./Slider.css";
 import jseeker from "../../media/jseeker.png";
 import portfolio from "../../media/portfolio.png";
 import countries from "../../media/countries.png";
-import CRUD from "../../media/CRUD.png"
+import CRUD from "../../media/CRUD.png";
+import Calculator from "../../media/Calculator.png"
 
 const slidesInfo = [
     {
@@ -29,6 +30,12 @@ const slidesInfo = [
         alt: "Project 4",
         desc: "Firebase & React CRUD",
         href: "https://fir-react-crud-6ac76.web.app/"
+    },
+    {
+        src: Calculator ,
+        alt: "Project 5",
+        desc: "Vue.js & HTML calculator", 
+        href: "C:/Users/Vale/Desktop/Projects/VueCalculator/calculator/public/calculator.html"
     }
 ];
 

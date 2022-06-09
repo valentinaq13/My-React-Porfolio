@@ -1,5 +1,6 @@
 import React from 'react';
 import "./NavBar.css";
+import { AiFillUpCircle } from "react-icons/ai";
 
 
 const NavBar = ({ isScrolling }) => {
@@ -9,13 +10,24 @@ const NavBar = ({ isScrolling }) => {
   const toTheBottom = () => {
     window.scrollTo(0, document.body.scrollHeight );
   }
+
+  if( isScrolling > 20){
   return (
     <nav className={`navbar ${isScrolling > 20 ? "scrolling" : null}`}>
-      <div className='navbar-logo' onClick={toTheTop}>VQ</div>
+      <div className='navbar-logo2' onClick={toTheTop}>
+      <AiFillUpCircle/>
+      </div>
       <div className='navbar-logo' onClick={toTheBottom}>Contact me</div>
-
     </nav>
+  
   )
+  }else{
+    return (
+      <nav className={`navbar ${isScrolling > 20 ? "scrolling" : null}`}>
+      <div className='navbar-logo' onClick={toTheBottom}>Contact me</div>
+    </nav>
+    )
+  }
 }
 
 export default NavBar

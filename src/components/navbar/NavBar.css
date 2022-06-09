@@ -19,6 +19,16 @@
 .navbar-logo {
     height: 80px;
     line-height: 80px;
-    color: rgb(235, 235, 168);
+    color: white;
     cursor: pointer;
+    position: fixed;
+}
+
+.navbar-logo2 {
+    height: 80px;
+    line-height: 80px;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    padding-left: 30px;
 }

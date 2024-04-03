@@ -7,12 +7,12 @@ import CRUD from "../../media/CRUD.png";
 import Calculator from "../../media/Calculator.png"
 
 const slidesInfo = [
-    {
-        src: countries,
-        alt: "Project 1",
-        desc: "Countries",
-        href: "https://www.linkedin.com/posts/valentina-quiroga-zalazar_frontend-react-database-activity-6892512726267035648-W3UL?utm_source=linkedin_share&utm_medium=member_desktop_web"
-    },
+    // {
+    //     src: countries,
+    //     alt: "Project 1",
+    //     desc: "Countries",
+    //     href: "https://www.linkedin.com/posts/valentina-quiroga-zalazar_frontend-react-database-activity-6892512726267035648-W3UL?utm_source=linkedin_share&utm_medium=member_desktop_web"
+    // },
     {
         src: jseeker,
         alt: "Project 2",
@@ -25,18 +25,18 @@ const slidesInfo = [
         desc: "React Portfolio",
         href: "https://valentina-quiroga.vercel.app/"
     },
-    {
-        src: CRUD ,
-        alt: "Project 4",
-        desc: "Firebase & React CRUD",
-        href: "https://fir-react-crud-6ac76.web.app/"
-    },
-    {
-        src: Calculator ,
-        alt: "Project 5",
-        desc: "Vue.js & HTML calculator", 
-        href: "C:/Users/Vale/Desktop/Projects/VueCalculator/calculator/public/calculator.html"
-    }
+    // {
+    //     src: CRUD ,
+    //     alt: "Project 4",
+    //     desc: "Firebase & React CRUD",
+    //     href: "https://fir-react-crud-6ac76.web.app/"
+    // },
+    // {
+    //     src: Calculator ,
+    //     alt: "Project 5",
+    //     desc: "Vue.js & HTML calculator", 
+    //     href: "C:/Users/Vale/Desktop/Projects/VueCalculator/calculator/public/calculator.html"
+    // }
 ];
 
 const slides = slidesInfo.map((slide) => (

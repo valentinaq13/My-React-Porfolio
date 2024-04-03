@@ -4,7 +4,7 @@ import jseeker from "../../media/jseeker.png";
 import portfolio from "../../media/portfolio.png";
 import countries from "../../media/countries.png";
 import CRUD from "../../media/CRUD.png";
-import Calculator from "../../media/Calculator.png"
+import reverserWord from "../../media/reverserWord.png"
 
 const slidesInfo = [
     // {

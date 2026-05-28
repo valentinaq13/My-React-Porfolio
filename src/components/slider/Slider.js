@@ -1,6 +1,6 @@
 import React from "react";
-import Carousel from "@brainhubeu/react-carousel";
-import "@brainhubeu/react-carousel/lib/style.css";
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import Slides from "./Slides";
 import "./Slider.css";
 
@@ -12,22 +12,19 @@ const Slider = () => {
       </div>
 
       <Carousel
-        plugins={["arrows","infinite"]}
-        slidesPerPage={3}
-        infinite
-        animationSpeed={1000}
-        centered
-        offset={50}
-        itemWidth={400}
-        slides={Slides}
-        breakpoints={{
-          960: {
-            slidesPerPage: 1,
-            arrows: false,
-            itemWidth: 250,
-          },
-        }}
-      />
+        autoPlay={false}
+        showThumbs={false}
+        showStatus={false}
+        centerMode={true}
+        centerSlidePercentage={33.33}
+        dynamicHeight={false}
+        swipeable={true}
+        emulateTouch={true}
+        renderIndicator={false}
+        responsive={true}
+      >
+        {Slides}
+      </Carousel>
     </div>
   );
 };

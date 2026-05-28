@@ -1,53 +1,57 @@
 import React from "react";
 import "./Slider.css";
-import jseeker from "../../media/jseeker.png";
-import portfolio from "../../media/portfolio.png";
-import countries from "../../media/countries.png";
-import CRUD from "../../media/CRUD.png";
-import reverserWord from "../../media/reverserWord.png"
+import dresses from "../../media/dresses.png";
+import rame from "../../media/rame.png";
 
 const slidesInfo = [
-    // {
-    //     src: countries,
-    //     alt: "Project 1",
-    //     desc: "Countries",
-    //     href: "https://www.linkedin.com/posts/valentina-quiroga-zalazar_frontend-react-database-activity-6892512726267035648-W3UL?utm_source=linkedin_share&utm_medium=member_desktop_web"
-    // },
     {
-        src: jseeker,
-        alt: "Project 2",
-        desc: "SeekerPro",
-        href: "https://pf-seekerpro.herokuapp.com/"
+        src: dresses,
+        alt: "Dresses E-commerce",
+        desc: "Dresses E-commerce",
+        href: "https://dresses-proyect.vercel.app/"
     },
     {
-        src: portfolio,
-        alt: "Project 3",
-        desc: "React Portfolio",
-        href: "https://valentina-quiroga.vercel.app/"
+        src: rame,
+        alt: "Rame E-commerce",
+        desc: "Rame E-commerce",
+        href: "https://rame-app.vercel.app/"
     },
-    // {
-    //     src: CRUD ,
-    //     alt: "Project 4",
-    //     desc: "Firebase & React CRUD",
-    //     href: "https://fir-react-crud-6ac76.web.app/"
-    // },
-    // {
-    //     src: Calculator ,
-    //     alt: "Project 5",
-    //     desc: "Vue.js & HTML calculator", 
-    //     href: "C:/Users/Vale/Desktop/Projects/VueCalculator/calculator/public/calculator.html"
-    // }
+    {
+        src: null,
+        alt: "Próximamente",
+        desc: "Próximamente",
+        href: null
+    },
 ];
 
-const slides = slidesInfo.map((slide) => (
-    <div className="slide-container">
-        <a href={slide.href} target="_blank" rel="noreferrer">
-            <img src={slide.src} alt={slide.alt} />
-        </a>
-        <div className="slide-desc">
-            <span>{slide.desc}</span>
-        </div>
-    </div>
-));
+const slides = slidesInfo.map((slide, idx) => {
+    if (slide.href) {
+        return (
+            <div
+                className="slide-container"
+                key={slide.href + idx}
+                style={{ cursor: 'pointer' }}
+                onClick={() => window.open(slide.href, '_blank', 'noreferrer')}
+            >
+                <img src={slide.src} alt={slide.alt} />
+                <div className="slide-desc">
+                    <span>{slide.desc}</span>
+                </div>
+            </div>
+        );
+    } else {
+        return (
+            <div
+                className="slide-container"
+                key={'placeholder' + idx}
+                style={{ background: 'black', display: 'flex', alignItems: 'center', justifyContent: 'center' }}
+            >
+                <div className="slide-desc" style={{ background: 'transparent', position: 'static', width: '100%', textAlign: 'center' }}>
+                    <span style={{ color: 'white', fontSize: 24, fontWeight: 700, padding: 0 }}>Próximamente</span>
+                </div>
+            </div>
+        );
+    }
+});
 
 export default slides;
